@@ -1,7 +1,9 @@
 
 .section {
-    min-height: 100vh;
+    min-height: 25vh;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     padding-bottom: 3rem;
 }
 
@@ -30,4 +32,15 @@
 
 .componentSpacing {
     padding-top: 3rem; /* Ajuste o valor conforme necessário */
+}
+
+.casalSection {
+    background-color: rgb(245, 231, 202);
+    color: rgb(87, 85, 85)
+}
+
+.casalTexto {
+    width: 50%;
+    margin: 0 auto;
+    padding: 5rem;
 }

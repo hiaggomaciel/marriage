@@ -1,6 +1,7 @@
 "use client"
 
 import Header from "./components/Header";
+import SectionCasal from "./components/SectionCasal";
 import SectionInicio from "./components/SectionInicio";
 import { useEffect } from 'react';
 
@@ -24,6 +25,7 @@ export default function Home() {
       <Header />
       <main>
         <SectionInicio />
+        <SectionCasal />
       </main>
     </>
   );
